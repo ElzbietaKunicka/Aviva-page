@@ -1,0 +1,104 @@
+:root {
+  /* Fonts */
+  --font-heading: "Roboto Slab", serif;
+  --font-body: "Open Sans", sans-serif;
+
+  /* Colors */
+  --color-primary: #696d7d;
+  --color-secondary: #d55672;
+  --color-tertiary: #8ea604;
+
+  --color-header: #4b644a;
+  --color-main: #f1e0c5;
+  --color-footer: #49393b;
+
+  --color-white: #ffffff;
+  --color-text: #232020;
+}
+
+header {
+  background-color: black;
+  text-align: center;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: block;
+}
+h1 {
+  text-align: left;
+}
+
+header nav {
+  text-align: right;
+  background-color: yellow;
+  padding: 30px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+.nav {
+  max-width: 960px;
+  text-align: right;
+}
+
+.about {
+  text-align: left;
+  background-color: white;
+  padding-left: 90px;
+  padding-right: 90px;
+  display: block;
+}
+
+table {
+  border: 2px solid red;
+  color: white;
+  padding: 10px;
+}
+.table {
+  background-color: rgb(73, 73, 151);
+  color: white;
+}
+th {
+  font-weight: bold;
+}
+
+tb {
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.contacts {
+  background-color: white;
+  padding-left: 90px;
+  color: black;
+}
+.contacts ul li a {
+  text-decoration: none;
+  color: #232020;
+}
+
+footer {
+  background-color: rgb(118, 125, 22);
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.goup {
+  text-align: center;
+  display: block;
+}
+
+.godown {
+  text-align: center;
+  display: block;
+  color: white;
+  border-radius: 10px;
+  background-color: red;
+  padding: 10px;
+  width: fit-content;
+  box-sizing: content-box;
+}
